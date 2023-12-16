@@ -138,7 +138,7 @@ fillMode.addEventListener('click', function() {
     })
 })
 
-let rainbowMode = document.querySelector('.rgb-mode');
+let rainbowMode = document.querySelector('.rainbow-mode');
 rainbowMode.addEventListener('click', function() {
     let randomRed = Math.floor(Math.random() * 255);
     let randomGreen = Math.floor(Math.random() * 255);
