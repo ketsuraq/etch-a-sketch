@@ -1,6 +1,6 @@
 body {
     background-color: rgb(3, 6, 44);
-    color: rgb(126, 165, 223);
+    color: rgb(147, 126, 223);
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     display: flex;
@@ -36,15 +36,15 @@ h1 {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-    border: 5px solid rgb(126, 165, 223);
+    border: 5px solid rgb(147, 126, 223);
     border-radius: 15px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
 }
 button {
-    background-color: rgb(126, 165, 223);
-    border: 5px solid rgb(126, 165, 223);
+    background-color: rgb(147, 126, 223);
+    border: 5px solid rgb(147, 126, 223);
     border-radius: 15px;
     font-size: inherit;
     padding: 5px;
@@ -52,7 +52,11 @@ button {
     color: rgb(3, 6, 44);
     -webkit-transition-duration: 0.3s; 
     -webkit-transition-timing-function: ease;
-    font-style: inherit;
+    width: 40px;
+}
+.buttons {
+    display: flex;
+    gap: 16px;
 }
 .color-picker {
     height: 100px;
@@ -63,7 +67,7 @@ button {
 button:hover {
     background-color: rgb(3, 6, 44);
     transform: scale(1.1);
-    color: rgb(126, 165, 223);
+    color: rgb(147, 126, 223);
 }
 .color-picker:hover {
     background-color: black;
@@ -80,6 +84,8 @@ button:hover {
     max-height: 500px;
     background-color: white;
     border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .modal {
     background-color: rgb(3, 6, 44);
@@ -90,7 +96,7 @@ button:hover {
     width: fit-content;
     display: flex;
     flex: auto;
-    color: rgb(126, 165, 223);
+    color: rgb(147, 126, 223);
     font-size: 20px;
     justify-content: center;
     align-items: center;
@@ -106,4 +112,8 @@ button:hover {
     height: 100%;
     width: 100%;
     position: fixed;
+}
+
+.cell {
+    box-sizing: border-box;
 }
